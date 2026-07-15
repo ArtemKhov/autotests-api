@@ -1,12 +1,11 @@
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
-# Добавили импорт моделей
+
 from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, LoginResponseSchema
 from clients.public_http_builder import get_public_http_client
 
-
-# Старые модели с использованием TypedDict были удалены
 
 class AuthenticationClient(APIClient):
     """
@@ -14,6 +13,7 @@ class AuthenticationClient(APIClient):
     """
 
     # Теперь используем pydantic-модель для аннотации
+    @allure.step("Authenticate user")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
@@ -28,6 +28,7 @@ class AuthenticationClient(APIClient):
         )
 
     # Теперь используем pydantic-модель для аннотации
+    @allure.step("Refresh authentication token")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         Метод обновляет токен авторизации.
