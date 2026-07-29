@@ -67,7 +67,7 @@ jobs:
 
       # 9. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
-        uses: dante-ev/allure-report-action@latest
+        uses: simple-elf/allure-report-action@master
         if: always()
         with:
           allure_results: allure-results
