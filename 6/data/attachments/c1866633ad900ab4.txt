@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjUzLjQwODU1MyIsInVzZXJfaWQiOiIwZmViOWRjNy1lZjgyLTQyYzEtYTI0Yi0yMzA3NDJmNjY0YzQifQ.A2m82lEnOOExGykcblOWJPBntus2QY97Qv5iTTahXwc' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Huge gun natural condition party.","maxScore":83,"minScore":3,"description":"Coach somebody task they dog. Admit opportunity past most energy.\nBar believe list letter. Executive various line.\nFrom spring key appear air. Now site without onto though. Discover onto there rock.","estimatedTime":"5 weeks","previewFileId":"7d3d1be2-92ea-4717-9513-bf3e3b4fb6e6","createdByUserId":"0feb9dc7-ef82-42c1-a24b-230742f664c4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjUxLjkyMjUxNCIsInVzZXJfaWQiOiIyNjUwZDMxOC02ODA3LTQ0ZmEtYTI3Yy0wZWMxMzE4ODU0YzUifQ.xbijfsbWgo8MtCea3kSbowoEVEcLImBsfXmZbeChPFI' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fight health middle cell me occur.","maxScore":84,"minScore":27,"description":"Arm on treat board leg. Day would degree service. Rich management degree scientist.\nTry herself economic only. Its left act occur. Once after term power join.","estimatedTime":"3 weeks","previewFileId":"5d560c39-5da6-4f33-ab8e-c903d656cd29","createdByUserId":"2650d318-6807-44fa-a27c-0ec1318854c5"}'

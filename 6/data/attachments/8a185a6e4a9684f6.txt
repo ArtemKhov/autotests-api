@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjU0LjM2MDI0NCIsInVzZXJfaWQiOiI5MjU3ZTNjZi1lOGM5LTRhYjYtOWIwZS1kMTMxMmM5YjgwMWMifQ.LXQ2joQLQ-QeAeutPhGn1DHq2jRhjeZMHB-aQ-R8Bmo' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game yeah effort development full campaign.","maxScore":93,"minScore":8,"description":"Five board may bed however short down office. Agree seek skill section policy.\nProfessor manage if present support owner. Laugh education account then look position scene without.","estimatedTime":"7 weeks","previewFileId":"3282a146-7cf7-4333-824c-edd26d927bb4","createdByUserId":"9257e3cf-e8c9-4ab6-9b0e-d1312c9b801c"}'

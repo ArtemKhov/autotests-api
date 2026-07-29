@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Make GET request to http://localhost:8000/api/v1/exercises/929235c2-3dfa-40f8-8339-11546c843a38
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/exercises/929235c2-3dfa-40f8-8339-11546c843a38
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:71 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to 929235c2-3dfa-40f8-8339-11546c843a38
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Smile bit boy step soon.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 74cd6c54-ce75-4fcd-a6cb-3f8a2771880b
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 28
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Effort should senior as group fine. Involve cause fine voice spend wait knowledge. Him happen suggest improve deep full glass manager.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:23 Validating JSON schema

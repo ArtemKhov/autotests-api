@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjUyLjgyODYzMiIsInVzZXJfaWQiOiI1YjZiY2E3MC01N2I2LTRkMjctOWRjMS1kNDBjOWFmYWE0NzEifQ.KfTHfvw6nnff36c-ymRWA0OJsD419hIwn9rcCVa63Fg' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal lose deep cultural read fear three change.","maxScore":99,"minScore":21,"description":"Go history significant. Look message art.\nNothing better of door general. Threat other move huge and will total fire.\nAnyone could moment parent. Mind hospital finish answer.","estimatedTime":"2 weeks","previewFileId":"81d88d35-0b41-4a8a-8858-ed8fedf761b0","createdByUserId":"5b6bca70-57b6-4d27-9dc1-d40c9afaa471"}'

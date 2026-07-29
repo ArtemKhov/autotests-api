@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjU0LjYzMzE0NSIsInVzZXJfaWQiOiJhMmQ3MjNlNy04MmYyLTQ1M2ItOWQ2Ny1iZDY0ODQ0MWRiMWEifQ.A_NUsBtJFDnBb5nzMBCeDgj16yl7i4u_ZA-9jWUDL24' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve sound including almost focus civil physical lose.","maxScore":96,"minScore":14,"description":"Wish look Republican first still. Big age consider indicate never list.\nSummer everything wait treatment between plant special. Manager trouble per general fund manager.","estimatedTime":"5 weeks","previewFileId":"42c9504d-d21b-49b0-812a-d31ab4c49074","createdByUserId":"a2d723e7-82f2-453b-9d67-bd648441db1a"}'

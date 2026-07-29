@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjA1OjU0LjM2MDI0NCIsInVzZXJfaWQiOiI5MjU3ZTNjZi1lOGM5LTRhYjYtOWIwZS1kMTMxMmM5YjgwMWMifQ.LXQ2joQLQ-QeAeutPhGn1DHq2jRhjeZMHB-aQ-R8Bmo' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worry avoid fire test economy land sell model.","courseId":"b0458f6d-bb07-4eae-a3e9-65377d432399","maxScore":93,"minScore":29,"orderIndex":61,"description":"Say serious think product. Technology wall opportunity trip student role western.\nBeautiful my wall population financial. Vote but task.","estimatedTime":"3 weeks"}'
