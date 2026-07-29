@@ -66,23 +66,25 @@ jobs:
 
   publish-report:
       if: always()
-      needs: [ run-tests ]
+      needs: [ run-tests ] # Запускаем только после успешного прохождения джобы run-tests
       runs-on: ubuntu-latest
 
       steps:
+        # 9. Получаем историю отчетов из ветки gh-pages
         - name: Check out repository
           uses: actions/checkout@v4
           with:
             ref: gh-pages
             path: gh-pages
 
+        # 10. Скачиваем результаты с отчетами
         - name: Download Allure results
           uses: actions/download-artifact@v4
           with:
             name: allure-results
             path: allure-results
 
-        # 9. Шаг для генерации и отображения отчёта Allure
+        # 11. Шаг для генерации и отображения отчёта Allure
         - name: Generates Allure Report with history
           uses: simple-elf/allure-report-action@master
           if: always()
@@ -90,7 +92,7 @@ jobs:
             allure_results: allure-results
             allure_history: allure-history
 
-        # 10. Шаг для деплоя отчёта Allure на GitHub Pages
+        # 12. Шаг для деплоя отчёта Allure на GitHub Pages
         - name: Deploy report to Github Pages
           if: always()
           uses: peaceiris/actions-gh-pages@v4
