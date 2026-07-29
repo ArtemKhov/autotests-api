@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8d1f9674-d81e-42f2-a3a2-5014907ce0ab' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA1LjM0ODI1NSIsInVzZXJfaWQiOiI1M2RhOWJiOS02ZjgyLTQxMGMtOGI1Zi0yZDc4MDAyNmE3YTUifQ.cdtj9WwpUZiIKITK4Z7GPxM7ZWt-WkM1ZRCJ6_rc7JI' \
+  -H 'content-length: 227' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know week budget artist turn.","maxScore":80,"minScore":28,"orderIndex":57,"description":"Power heavy challenge. Perform teach perhaps. Behavior environmental chair newspaper move or later.","estimatedTime":"3 weeks"}'

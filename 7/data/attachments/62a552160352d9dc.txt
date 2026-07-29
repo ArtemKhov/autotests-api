@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA2Ljg4MTM4MCIsInVzZXJfaWQiOiJiMjYyMjE1ZS1iMzIzLTQ2M2ItYmM2MC1jYmUxNjQ5MDVmYzgifQ.xs2BJO6r5j3SOE-yNMGZV6kL2ZxuYkuqf0sADrrB4jw' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Better organization world nor Congress.","maxScore":83,"minScore":10,"description":"Question college help continue.\nHear hear remember. Civil pressure population one church challenge.","estimatedTime":"6 weeks","previewFileId":"6cdc8636-8761-4fad-ba6a-26ba1e984984","createdByUserId":"b262215e-b323-463b-bc60-cbe164905fc8"}'

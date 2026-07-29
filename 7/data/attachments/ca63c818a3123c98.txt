@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA1LjM0ODI1NSIsInVzZXJfaWQiOiI1M2RhOWJiOS02ZjgyLTQxMGMtOGI1Zi0yZDc4MDAyNmE3YTUifQ.cdtj9WwpUZiIKITK4Z7GPxM7ZWt-WkM1ZRCJ6_rc7JI' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Carry president truth know early.","courseId":"6c673e45-de9b-4285-9bc4-8f9ce4811f41","maxScore":93,"minScore":24,"orderIndex":42,"description":"Walk author cut conference fact. These detail meet hour without key song. Win or writer figure character color employee. Benefit score whose read.","estimatedTime":"10 weeks"}'

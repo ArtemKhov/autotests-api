@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA2LjYwODMyNSIsInVzZXJfaWQiOiJiZTliMmRkMS02MmYxLTRhZDctODg5Yy1kODAwNmNjY2FlZWQifQ.3o0o5gBDJRnYkgqr4g5OG8gM_IxWbvtBbNVUUQ9tK8A' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Approach word crime pull will.","courseId":"c60faba6-6925-4064-a6c8-d9fac13aa49a","maxScore":67,"minScore":12,"orderIndex":16,"description":"Across final however teach summer. Film strong current anything address sometimes.\nUsually best option authority before father memory attack. Charge five fund rest evening throughout.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA0LjM3OTU2OCIsInVzZXJfaWQiOiJlOTUyZmVhOC03ZTQ1LTRmZjktYmVkMC1hYjc4MmYwYjBlMDgifQ.TYJVPh2fMFHjaKYFWYBG6dlsmV9munYzFDpgwoE9NOQ' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent blood fish far high.","maxScore":95,"minScore":24,"description":"Car free may race certainly theory successful. Require few base foot trade. Easy decide show too involve security.","estimatedTime":"4 weeks","previewFileId":"25b7b989-370e-4e50-b564-deb30480611e","createdByUserId":"e952fea8-7e45-4ff9-bed0-ab782f0b0e08"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA1LjYyMTcwNiIsInVzZXJfaWQiOiI2YjJkNmFmNy0yY2IyLTQwNzEtYjFhOS0xMmQxMGIwYzUwY2YifQ.CCqSBD5Ttv5_hGxCTyZa3pw0r6hcyRTga_CgCS4NgvA' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind economic nearly together.","courseId":"afdee158-4f51-4848-a5d5-82a0d5958985","maxScore":74,"minScore":10,"orderIndex":22,"description":"Turn art side example case. Responsibility life physical top direction. Watch cost instead despite determine.","estimatedTime":"4 weeks"}'

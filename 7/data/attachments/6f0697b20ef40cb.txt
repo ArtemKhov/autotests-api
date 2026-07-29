@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA1LjM0ODI1NSIsInVzZXJfaWQiOiI1M2RhOWJiOS02ZjgyLTQxMGMtOGI1Zi0yZDc4MDAyNmE3YTUifQ.cdtj9WwpUZiIKITK4Z7GPxM7ZWt-WkM1ZRCJ6_rc7JI' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word action every third performance she resource.","maxScore":69,"minScore":27,"description":"Type these pick. Reason skill where receive.\nMention trade time room. Yard large structure more through third later against. Civil personal task notice inside language.","estimatedTime":"3 weeks","previewFileId":"518b4a71-27cf-41c4-a0e3-450db510b51f","createdByUserId":"53da9bb9-6f82-410c-8b5f-2d780026a7a5"}'

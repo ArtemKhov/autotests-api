@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA1LjYyMTcwNiIsInVzZXJfaWQiOiI2YjJkNmFmNy0yY2IyLTQwNzEtYjFhOS0xMmQxMGIwYzUwY2YifQ.CCqSBD5Ttv5_hGxCTyZa3pw0r6hcyRTga_CgCS4NgvA' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media indeed card group hand add admit fund.","maxScore":55,"minScore":17,"description":"Company popular drive firm can apply minute admit. Chance exactly why director bank without reveal thank. Weight material stop whole hard away television.\nThrough pretty serve raise.","estimatedTime":"10 weeks","previewFileId":"180a4cf9-77a7-4b76-91df-5bedec43247b","createdByUserId":"6b2d6af7-2cb2-4071-b1a9-12d10b0c50cf"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjAyLjUwNDE3MiIsInVzZXJfaWQiOiI5MjJlYzMwYi00MGM5LTQ4YjYtYTY0Ni1jMGUyMWY3MzIxMjEifQ.lpOIlooHW_xMHQdpTIbAP_cWKCKm4DPxpveKlMWQDuY' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim per back.","maxScore":84,"minScore":19,"description":"Four at sure part. Lot staff dark worker employee conference fear sound. Effect appear away often.","estimatedTime":"10 weeks","previewFileId":"d70b2041-37d8-4f5c-b2ac-15e569aa8171","createdByUserId":"922ec30b-40c9-48b6-a646-c0e21f732121"}'

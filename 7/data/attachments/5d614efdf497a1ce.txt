@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE3OjEyOjA2LjYwODMyNSIsInVzZXJfaWQiOiJiZTliMmRkMS02MmYxLTRhZDctODg5Yy1kODAwNmNjY2FlZWQifQ.3o0o5gBDJRnYkgqr4g5OG8gM_IxWbvtBbNVUUQ9tK8A' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern material program page compare reach.","maxScore":100,"minScore":15,"description":"Person management hundred account crime. Every catch describe expect.\nTime bed with born suffer try whatever. Miss social magazine.","estimatedTime":"2 weeks","previewFileId":"92df32e9-780d-4942-a864-c6db62f21686","createdByUserId":"be9b2dd1-62f1-4ad7-889c-d8006cccaeed"}'
