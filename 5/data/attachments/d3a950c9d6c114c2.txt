@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA0Ljg2ODk3MyIsInVzZXJfaWQiOiIxN2U0YTRkNS1hZGY1LTQ0MGItOTdmOC01M2RmOWY3YTU1M2EifQ.QNJV450xtgTSeBw2UMItS2Q6keCM4_E1vHjyapouWJU' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot indeed imagine likely picture plan.","maxScore":84,"minScore":19,"description":"Most control deep century. Local different decade mind miss answer. Cold carry daughter design chance.","estimatedTime":"8 weeks","previewFileId":"2e7b299c-7cd4-45e3-967f-c75b97bff40d","createdByUserId":"17e4a4d5-adf5-440b-97f8-53df9f7a553a"}'

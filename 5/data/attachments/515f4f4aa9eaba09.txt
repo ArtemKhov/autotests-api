@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA3LjI5MTIxMiIsInVzZXJfaWQiOiJhMTFhZTc0NS1kNTNhLTQxZjItOGZjNC1mODY2NWM0ZWMxMTAifQ.oXt0CZh4LaRYRLtYGzHDJvYyedvact_NI6_5dDi2cNE' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure most color.","maxScore":51,"minScore":13,"description":"Moment information government trial. Then list everyone fund.\nBring population area. Nothing lot lot notice look. Product provide other because.","estimatedTime":"10 weeks","previewFileId":"c2f599bc-0fc3-4830-bb8a-004358aa1c91","createdByUserId":"a11ae745-d53a-41f2-8fc4-f8665c4ec110"}'

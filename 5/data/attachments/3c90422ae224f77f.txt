@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c3dd9039-df6d-46ed-bfb3-c600c9126dc2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA1Ljk1MDA0NCIsInVzZXJfaWQiOiIxM2JmYmE3ZC04NTJlLTQyZDktOTQ0NS1kY2IyYmY5NzdkNmEifQ.E8OC0C5jGFn-cxZD1Aj2eBeMOQj-IXqA7gSR1t_S4pE' \
+  -H 'content-length: 184' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr agree life offer.","maxScore":78,"minScore":22,"orderIndex":66,"description":"Wear answer rather. Development already everything whether about.","estimatedTime":"7 weeks"}'

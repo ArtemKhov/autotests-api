@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA3LjA1MTMwMSIsInVzZXJfaWQiOiJmYmE0ZTc2MC1hMTM3LTQ2NTktYjY2My1mYTNlMGM0YWZhODUifQ.Ah4IvF6FJBSfb72k9LgHaEZ2KKtfz8kAiTHUr6x6BpM' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Do history camera mind.","maxScore":69,"minScore":14,"description":"Whom more those language your. I effect have.\nType future environmental region a eye. Always line factor I technology. Adult sister number west direction life.","estimatedTime":"6 weeks","previewFileId":"e4d8feec-9817-4a63-a43a-64e2a711f730","createdByUserId":"fba4e760-a137-4659-b663-fa3e0c4afa85"}'

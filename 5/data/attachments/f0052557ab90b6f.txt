@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA0LjAzOTE3MCIsInVzZXJfaWQiOiJjMjU2N2RkNC02ODgwLTQzMTctYWNhYi1mZjcxMzAxMWE0OTYifQ.fEwwg6wfUNrd64jgk5LutskkpJVLJ2CMFgO1GTTweMA' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throughout add capital.","maxScore":63,"minScore":2,"description":"Side question about. Thus or south into think according. Suggest draw dog ask speak.\nFree its successful firm city sort. Name rock trade former notice three some understand. Memory affect important.","estimatedTime":"4 weeks","previewFileId":"924e48b4-eed4-42d2-8251-3cd56585fe0b","createdByUserId":"c2567dd4-6880-4317-acab-ff713011a496"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI5VDE2OjU0OjA2LjE4ODY2MSIsInVzZXJfaWQiOiJjMDIzYjk5MC0xMmY4LTRiMmMtOTRmYi1kZjUzMWFhMjgxYjAifQ.-lBCXYgd4PCRMPhtilUwKkmpDkV4T7fcJAVaFlkv_18' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Add station animal garden myself bring ability.","maxScore":98,"minScore":25,"description":"By election program popular off. Particular go item radio property.\nUsually trouble about world minute. Wife reflect happy always enter tree program writer. He serious strategy adult.","estimatedTime":"8 weeks","previewFileId":"f55fca42-51db-4ce9-ab0a-5625ca493168","createdByUserId":"c023b990-12f8-4b2c-94fb-df531aa281b0"}'
