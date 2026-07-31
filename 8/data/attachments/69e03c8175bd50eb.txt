@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQyLjczMzE5NCIsInVzZXJfaWQiOiJhNmFjNWRkZi02MzE1LTQ0YTItOTEwMi01Zjg1NTliNTA2ZmYifQ.m90i7GpJyn840GTjExLp_-0Ynbva0LCHKy0aL5QeiX0' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Who moment professional ability.","maxScore":53,"minScore":4,"description":"Politics hot speech order general evening west film. Practice even tell on.\nThis their right most. Million upon simply impact size computer scientist.","estimatedTime":"3 weeks","previewFileId":"726f00a6-0982-4e26-8163-21066d3b6516","createdByUserId":"a6ac5ddf-6315-44a2-9102-5f8559b506ff"}'

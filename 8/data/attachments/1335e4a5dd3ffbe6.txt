@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQ2LjkxMTQ0MSIsInVzZXJfaWQiOiIyODhjMTA2Yi03ZjkzLTQ1MjAtYTNlYS03NTA0NzEwZTdiYmQifQ.664DKW6oBBcLwiTngsc4o3GTl0ZjNw112NQfTqxZTQ8' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr would authority game while rich he.","maxScore":100,"minScore":6,"description":"Get hot apply process detail set. Get run gun drop sit himself enter new. Fight mean month nothing begin career.\nTop staff type anyone answer field every. Cup common then. Better possible six fire.","estimatedTime":"1 weeks","previewFileId":"6ac4a457-c932-4b22-a73a-e27f532e29c1","createdByUserId":"288c106b-7f93-4520-a3ea-7504710e7bbd"}'

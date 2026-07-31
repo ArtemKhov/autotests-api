@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQ1LjUwNjQxNSIsInVzZXJfaWQiOiI1MGE3MjRkOC02N2VhLTQ3MjktYTM0ZS01ODNjZTNkOGMxYmIifQ.a4ArlEepPd6GxNOpJmm_FpqIMqBPMM7cjlc_ozreqiY' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skill certainly enter.","maxScore":60,"minScore":1,"description":"Court opportunity fact. Western similar allow into tell one. Course do move born.\nLeft born her. Better customer loss their husband recognize third cut. Best born because particularly its either.","estimatedTime":"5 weeks","previewFileId":"93877a58-13cd-483e-bdbc-9008ee539d37","createdByUserId":"50a724d8-67ea-4729-a34e-583ce3d8c1bb"}'

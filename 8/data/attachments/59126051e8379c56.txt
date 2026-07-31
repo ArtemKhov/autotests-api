@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQyLjAzOTY4OSIsInVzZXJfaWQiOiI3YjE3OTA0NS1kYTBhLTRlZjgtYWE4Zi02ZjlkODNhMWU1NjUifQ.zPGNegS95RhrVCfYnnW-BdxFik7w_6aPey7KsTC4SHk' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above despite responsibility yeah.","maxScore":65,"minScore":6,"description":"Exist also open. Include miss continue program. Voice tough information its.\nMother how decade. Fact today at machine. Ago its mission office religious move customer.","estimatedTime":"3 weeks","previewFileId":"7658787c-b95f-47e0-8603-e8159c8333bc","createdByUserId":"7b179045-da0a-4ef8-aa8f-6f9d83a1e565"}'

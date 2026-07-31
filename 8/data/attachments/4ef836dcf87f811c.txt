@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Make PATCH request to http://localhost:8000/api/v1/courses/4929946b-2199-413b-8c1c-1b32a9c11adf
+INFO     HTTP_CLIENT:event_hooks.py:45 Got response 200 OK from http://localhost:8000/api/v1/courses/4929946b-2199-413b-8c1c-1b32a9c11adf
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:27 Check update course response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to They ago science.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Whose effort off listen five far. Goal itself through leave card she. Without operation direction threat.
+Admit today measure. Hotel hold month then next happen theory. Month themselves author must.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:23 Validating JSON schema

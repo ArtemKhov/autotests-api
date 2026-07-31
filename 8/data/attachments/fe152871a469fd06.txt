@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQ0LjEyNTMzMiIsInVzZXJfaWQiOiIzZTdkNjg2Zi0zYjEwLTQ4ZTktOTAyNy02ZWEzM2ExOGUyYTAifQ.i0d2AbgYQ5hCDl2rbtWZz3W80x9zK5U0yN5Tbss8zVQ' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual state send senior decision several which near.","maxScore":58,"minScore":30,"description":"Information plant million economy defense necessary. Sister single six million. With suddenly Congress join notice executive.\nPopular truth various. Particularly speech when.","estimatedTime":"10 weeks","previewFileId":"21c69de3-f893-415e-b6e4-44bc0df5740d","createdByUserId":"3e7d686f-3b10-48e9-9027-6ea33a18e2a0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTMxVDExOjExOjQ2LjYwMTUyMSIsInVzZXJfaWQiOiIyZTBjZmM5Yy1iMTQ3LTQ4N2UtOGE3My1mMDBkNmQ1MjdlYTYifQ.PMbmWiR781su87kbuH0rpONoOOdK4tzeland_XZh5vw' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Voice able home help subject dream wife check.","maxScore":76,"minScore":9,"description":"Gun activity site apply east quickly space recently. Probably artist property store. Parent people event station politics rest child value.","estimatedTime":"6 weeks","previewFileId":"e5fd9e6a-9a72-427b-a86a-1d6c25c80da3","createdByUserId":"2e0cfc9c-b147-487e-8a73-f00d6d527ea6"}'
