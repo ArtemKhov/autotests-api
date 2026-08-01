@@ -26,7 +26,7 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         base_url=settings.http_client.client_url,
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
         event_hooks={
-            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
-            "response": [log_response_event_hook]  # Логируем полученные HTTP-ответы
+            "request": [curl_event_hook, log_request_event_hook],
+            "response": [log_response_event_hook]
         },
     )

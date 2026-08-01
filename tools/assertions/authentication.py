@@ -2,9 +2,8 @@ import allure
 
 from clients.authentication.authentication_schema import LoginResponseSchema
 from tools.assertions.base import assert_equal, assert_is_true
-from tools.logger import get_logger  # Импортируем функцию для создания логгера
+from tools.logger import get_logger
 
-# Создаем логгер с именем "AUTHENTICATION_ASSERTIONS"
 logger = get_logger("AUTHENTICATION_ASSERTIONS")
 
 
@@ -16,7 +15,6 @@ def assert_login_response(response: LoginResponseSchema):
     :param response: Объект ответа с токенами авторизации.
     :raises AssertionError: Если какое-либо из условий не выполняется.
     """
-    # Логируем факт начала проверки
     logger.info("Check login response")
     
     assert_equal(response.token.token_type, "bearer", "token_type")

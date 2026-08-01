@@ -23,7 +23,6 @@ class CoursesClient(APIClient):
         :param query: Словарь с userId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/courses используем APIRoutes.COURSES
         return self.get(APIRoutes.COURSES, params=query.model_dump(by_alias=True))
 
     @allure.step("Get course by id {course_id}")
@@ -35,7 +34,6 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/courses используем APIRoutes.COURSES
         return self.get(f"{APIRoutes.COURSES}/{course_id}")
 
     @allure.step("Create course")
@@ -48,7 +46,6 @@ class CoursesClient(APIClient):
         previewFileId, createdByUserId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/courses используем APIRoutes.COURSES
         return self.post(APIRoutes.COURSES, json=request.model_dump(by_alias=True))
 
     @allure.step("Update course by id {course_id}")
@@ -61,7 +58,6 @@ class CoursesClient(APIClient):
         :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/courses используем APIRoutes.COURSES
         return self.patch(
             f"{APIRoutes.COURSES}/{course_id}",
             json=request.model_dump(by_alias=True)
@@ -76,7 +72,6 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/courses используем APIRoutes.COURSES
         return self.delete(f"{APIRoutes.COURSES}/{course_id}")
 
     def create_course(self, request: CreateCourseRequestSchema) -> CreateCourseResponseSchema:

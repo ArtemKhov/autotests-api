@@ -5,5 +5,5 @@ pytest_plugins = (
     "fixtures.exercises",
     "fixtures.authentication",
 
-    "fixtures.allure"  # Добавили плагин
+    "fixtures.allure"
 )

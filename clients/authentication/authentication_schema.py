@@ -16,8 +16,8 @@ class LoginRequestSchema(BaseModel):
     """
     Описание структуры запроса на аутентификации.
     """
-    email: str = Field(default_factory=fake.email) # Добавили генерацию случайного email
-    password: str = Field(default_factory=fake.password) # Добавили генерацию случайного пароля
+    email: str = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)
 
 
 class LoginResponseSchema(BaseModel):
@@ -31,5 +31,4 @@ class RefreshRequestSchema(BaseModel):
     """
     Описание структуры запроса для обновления токена.
     """
-    # Добавили генерацию случайного предложения
     refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)

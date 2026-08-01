@@ -51,17 +51,12 @@ class TestFiles:
     @allure.severity(Severity.BLOCKER)
     @allure.title("Get file")
     def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
-        # Запрашиваем данные о файле с сервера по его id
         response = files_client.get_file_api(function_file.response.file.id)
-        # Преобразуем JSON-ответ в Pydantic-модель, чтобы дальше проверить
-        # что API действительно вернул JSON-ответ в ожидаемом формате
         response_data = GetFileResponseSchema.model_validate_json(response.text)
 
-        # проверяем статус код и сами данные о файле
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_get_file_response(response_data, function_file.response)
 
-        # проверяем, что структура JSON-ОТВЕТА соответствует схеме GetFileResponseSchema
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @allure.tag(AllureTag.DELETE_ENTITY)
@@ -94,12 +89,9 @@ class TestFiles:
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
-        # Проверка, что код ответа соответствует ожиданиям (422 - Unprocessable Entity)
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
-        # Проверка, что ответ API соответствует ожидаемой валидационной ошибке
         assert_create_file_with_empty_filename_response(response_data)
 
-        # Дополнительная проверка структуры JSON, чтобы убедиться, что схема валидационного ответа не изменилась
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @allure.tag(AllureTag.VALIDATE_ENTITY)
@@ -115,12 +107,9 @@ class TestFiles:
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
-        # Проверка, что код ответа соответствует ожиданиям (422 - Unprocessable Entity)
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
-        # Проверка, что ответ API соответствует ожидаемой валидационной ошибке
         assert_create_file_with_empty_directory_response(response_data)
 
-        # Дополнительная проверка структуры JSON
         validate_json_schema(response.json(), response_data.model_json_schema())
 
     @allure.tag(AllureTag.VALIDATE_ENTITY)

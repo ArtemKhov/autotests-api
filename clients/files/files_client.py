@@ -22,7 +22,6 @@ class FilesClient(APIClient):
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/files используем APIRoutes.FILES
         return self.get(f"{APIRoutes.FILES}/{file_id}")
 
     @allure.step("Create file")
@@ -34,7 +33,6 @@ class FilesClient(APIClient):
         :param request: Словарь с filename, directory, upload_file.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/files используем APIRoutes.FILES
         return self.post(
             APIRoutes.FILES,
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
@@ -50,7 +48,6 @@ class FilesClient(APIClient):
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        # Вместо /api/v1/files используем APIRoutes.FILES
         return self.delete(f"{APIRoutes.FILES}/{file_id}")
 
     def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
