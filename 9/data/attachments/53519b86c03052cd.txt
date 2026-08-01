@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjU1LjQ0MDcxNCIsInVzZXJfaWQiOiIxYWJjNzQ5YS01OTA2LTRhMjYtOGEzZi0zNTc5N2FiMjE0NmEifQ.G03f43l4SkLKo8X-9iJO-xo3cx5lYB63EUq-Q_lQ_t0' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy loss clearly piece actually answer real.","maxScore":62,"minScore":20,"description":"Old student head. Whom as eight response table argue concern. Play perform store inside trial.\nAmong certainly leg wrong wall. Become young hotel. Two military then fine toward.","estimatedTime":"2 weeks","previewFileId":"92b65d0f-1f1d-4283-a4c1-fdc9752ad465","createdByUserId":"1abc749a-5906-4a26-8a3f-35797ab2146a"}'

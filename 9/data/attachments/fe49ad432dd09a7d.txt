@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjUyLjk4NDI2MSIsInVzZXJfaWQiOiJjNWY4N2UwMy05OGM0LTQ0ZWMtYmYwOC05OWQwZjM4MzlmNzAifQ.nAZBOV6icrFNAAuPYpRH84i2WjHBKFOdVQRJd2UdGj4' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serve language data discuss prove attention.","maxScore":89,"minScore":29,"description":"Relationship standard or move answer. Land black think know up.\nGovernment sound movie key.\nRather Republican baby similar. May language rather upon end.","estimatedTime":"3 weeks","previewFileId":"68f9317f-2ab7-4380-9ed1-5dee629b0462","createdByUserId":"c5f87e03-98c4-44ec-bf08-99d0f3839f70"}'

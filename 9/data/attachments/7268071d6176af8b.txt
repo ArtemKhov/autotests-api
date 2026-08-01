@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/30b00bb9-6d07-4d80-b635-924f23e433cc' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjUzLjg5Nzg5NiIsInVzZXJfaWQiOiI5NjRmYjU3NC04YWUwLTQ4YWEtYTY0NS0wNGM5OThmNjYwMzkifQ.-11PzQuNFsmNoVUpJkzpjeytmXoaP3KVqUI--weJg3k' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become easy early national.","maxScore":75,"minScore":3,"description":"Energy chair away statement both also conference. Somebody little term site. Single happen debate we fact idea.\nInformation least population. Sister like office.","estimatedTime":"7 weeks"}'

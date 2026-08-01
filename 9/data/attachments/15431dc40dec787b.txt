@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjU3Ljk3MzUzNCIsInVzZXJfaWQiOiJkZTcxNTdlYi04NDA0LTRjNjItYWU3Ny0zYWE5MGY0ZThmZWUifQ._525dDL7n4v8d1W6u99_eY6xjswaK825KCxb_cseuI8' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise church bad within project.","maxScore":51,"minScore":30,"description":"Shake career office box project join check. Animal coach natural draw rise laugh doctor never. Value economic certainly cup.\nJoin allow pick. Blood eat relationship style.","estimatedTime":"6 weeks","previewFileId":"bfd1288b-cc74-4ca8-b626-fecd130c14ac","createdByUserId":"de7157eb-8404-4c62-ae77-3aa90f4e8fee"}'

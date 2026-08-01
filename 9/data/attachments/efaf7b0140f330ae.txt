@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjU1LjcxNTUxNiIsInVzZXJfaWQiOiIzMTJkYjIyZi1iZjRiLTQ1YjItOWQzOS1kZWVhZjQzMThkNTkifQ.s8XEio2kbnR-GIQ0Wb1_3c5gpNgxt05bt0ou5GKWdCo' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position sure management field employee leader.","courseId":"4eab125c-56b8-428f-bd6e-402f9fc11f12","maxScore":65,"minScore":4,"orderIndex":77,"description":"Husband color per fight increase sister social. Of learn possible prevent business.\nShare bring those quickly really door attorney. Field stage because common answer.","estimatedTime":"9 weeks"}'

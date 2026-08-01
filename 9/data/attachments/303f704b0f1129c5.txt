@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTAxVDExOjI0OjU0LjQ4MTYwNSIsInVzZXJfaWQiOiIwNTMyMTUyYi0xNzJhLTRmMzEtYmI0My1kMTZmYTQ0NjUxODkifQ.iJaGFsXn_ka6XPfQMGhC8z42bA6dEgJmWvT1jmzel_I' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student security between and picture office condition.","maxScore":79,"minScore":21,"description":"Month situation cultural must firm check. Particularly long control nor. Focus large right industry agreement almost carry.\nMagazine must live language. Race heart whether Republican leader.","estimatedTime":"9 weeks","previewFileId":"1249646e-3a8a-4936-9041-e97617f22729","createdByUserId":"0532152b-172a-4f31-bb43-d16fa4465189"}'
